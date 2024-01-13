@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 90%;
+    margin: 0 auto;
+    font-size: large;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* css for menu */
+.menu {
+    text-align: right;
+    background-color: rgb(160, 16, 49);
+    display: flex;
+
+}
+
+.logo {
+    text-align: left;
+    margin: 1%;
+}
+
+.menu ul {
+
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+
+
+}
+
+.menu ul li a:hover {
+    color: rgb(169, 211, 240);
+
+}
+
+
+/* css for main content  */
+.main-content {
+    margin: 0;
+    background-image: url(photos/photo2.3.jpg);
+    /* background-color: aqua; */
+    padding: 25% 0;
+    padding-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+
+}
+
+.upper {
+    display: flex;
+}
+
+.image {
+    height: 90px;
+    width: 90px;
+    /* border:5px solid black; */
+}
+
+img {
+    height: 90px;
+    width: 90px;
+
+}
+
+.heading {
+    margin: auto;
+    margin-right: 2%;
+    /* border:5px solid green; */
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(160, 16, 49);
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 3px rgb(198, 174, 174);
+
+}
+
+/* .text{
+    border: 5px solid yellow;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+.lower {
+    /* border:5px solid blue; */
+    height: auto;
+     display: flex;
+    margin-top: 15%;
+    margin-right: 3%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.lower p {
+    font-size: 4rem;
+    /* margin:auto; */
+    font-weight: bold;
+}
+
+.user-count {
+    display: flex;
+    /* border: 5px solid green; */
+    height: 30%;
+    background-color: rgb(216, 178, 164);
+    
+
+}
+
+.total-user {
+    border: 2px solid red;
+    height: 80%;
+    width: 30%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgb(174, 241, 241);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-user p {
+
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(160, 16, 49);
+}
+
+.blood-collected {
+    border: 2px solid red;
+    float: right;
+    height: 80%;
+    width: 30%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgb(174, 241, 241);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blood-collected p {
+
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(160, 16, 49);
+}
+
+.blood-learn{
+    background-color: rgb(214, 229, 241);
+    padding:2%;
+}
+
+
+
+.table {
+    border: 2px solid red;
+    margin:auto;
+    border-collapse: collapse;
+    width: 80%;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.table th {
+    font-size: 2rem;
+
+    border: 2px solid red;
+    padding: 2% 0;
+}
+
+.last{
+    display: flex;
+    background-color: rgb(233, 243, 224);
+}
+.about {
+    /* border:2px solid green; */
+   
+    /* height: 30%; */
+    width: 60vw;
+    text-align: left;
+    font-size: 1rem;
+    padding: 1.2%;
+
+}
+
+.about h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.about p {
+    padding: 1%;
+   
+    font-size: 1.2rem;
+}
+.social{
+    margin-left:15%;
+    /* background-color: rgb(190, 217, 240); */
+}
+.social ul li{
+    display: inline;
+}
+.social img{
+  padding: 6px;
+  margin: 5px;
+width: 50px;
+height: 50px;
+    
+}
+
+/* css for footer */
+.footer {
+    font-size: 1rem;
+    color: rgb(160, 16, 49);
+    background-color: aqua;
+
+}

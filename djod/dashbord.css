@@ -1,0 +1,103 @@
+
+     body{
+        margin:0;
+        padding:0;
+        /* border:2px solid green; */
+        height:99vh;
+        width:99vw;
+        display:flex;
+        background-color: antiquewhite;
+     }
+     .container{
+        background-color: rgb(144, 252, 252);
+        border:2px solid red;
+        border-radius: 15px;
+        width:100vw;
+        height:20vh;
+        padding:10px;
+
+        margin:auto;
+     }
+     form button{
+
+        font-weight: bold;
+        float:right;
+        width:74px;
+        height: 25px;
+        border-radius: 9px;
+        background-color: bisque;
+      }
+      form button:hover{
+        cursor: pointer;
+        background-color: rgb(250, 212, 165);
+      }
+      form button a{
+       text-decoration: none;
+       color:black;
+
+     }
+    
+    .upper{
+        /* border:2px solid green; */
+        margin:70px 5px;
+        
+
+    }
+    span p{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+    .lower{
+        /* border:2px solid red; */
+        margin:30px;
+        display:flex;
+    }
+    .btn{
+       margin:auto;
+       background-color: rgb(85, 85, 241);
+       padding:4px 10px;
+       border-radius: 10px;
+       
+    }
+    .btn a{
+        font-weight: bold;
+        font-size: 17px;
+        color:white;
+        text-decoration: none;
+    }
+    .btn:hover{
+        background-color: rgb(129, 129, 241);
+        cursor: pointer;
+    }
+    
+    
+
+.blood-learn{
+  background-color: rgb(214, 229, 241);
+  padding:2%;
+}
+
+
+
+.table {
+  border: 2px solid red;
+  margin:auto;
+  border-collapse: collapse;
+  width: 80%;
+
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 1%;
+}
+
+.table th {
+  font-size: 2rem;
+
+  border: 2px solid red;
+  padding: 2% 0;
+}

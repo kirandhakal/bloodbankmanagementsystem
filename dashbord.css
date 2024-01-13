@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 90%;
+    margin: 0 auto;
+    font-size: large;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* css for menu */
+.menu {
+    text-align: right;
+    background-color: rgb(42, 53, 146);
+    display: flex;
+
+}
+
+.logo {
+    text-align: left;
+    margin: 1%;
+    color:rgb(221, 204, 181);
+}
+
+.menu ul {
+
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+
+
+}
+
+.menu ul li a:hover {
+    color: rgb(169, 211, 240);
+
+}
+/* css for table */
+.blood-learn{
+    background-color: rgb(214, 229, 241);
+    padding:4%;
+
+}
+
+
+
+.table {
+    border: 2px solid red;
+    margin:auto;
+    border-collapse: collapse;
+    width: 80%;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.table th {
+    font-size: 2rem;
+
+    border: 2px solid red;
+    padding: 2% 0;
+}
+
+
+/* css for footer */
+.footer {
+    font-size: 1rem;
+    color: rgb(160, 16, 49);
+    background-color: aqua;
+
+}

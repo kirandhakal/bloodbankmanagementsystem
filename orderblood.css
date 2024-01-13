@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+    /* border:2px solid red; */
+    height:99vh;
+    width:99vw;
+    background-color:antiquewhite;
+    display:flex;
+}
+.container{
+    border:2px solid red;
+    margin:auto;
+    padding:39px;
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+label{
+    font-size: 20px;
+}
+input, select, button{
+    width:200px;
+    height:30px;
+}
+.submit{
+    font-weight: bold;
+    background-color: rgb(85, 85, 241);
+    color:white;
+    margin-top: 34px;
+    border: none;
+    border-radius: 10px;
+}
+.submit:hover{
+    color:rgb(26, 24, 24);
+    background-color: rgb(129, 129, 241);
+    cursor: pointer;
+}

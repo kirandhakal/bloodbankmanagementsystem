@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    /* border: 1px solid black; */
+    padding:1%;
+    width:90%;
+    margin:0 auto;
+    font-size: large;
+}
+.wrapper form{
+    margin-top: 2%;
+}
+.wrapper form label{
+    margin:5%;
+    
+}
+.wrapper form input[type="email"]{
+    margin-left:3.8%;
+    
+}
+.wrapper form input{
+    padding:0.5%;
+    margin:0.5%;
+    
+}
+.text-center{
+    text-align: center;
+}
+/* css for menu */
+.menu{
+    text-align:right;
+    background-color: rgb(160, 16, 49);
+}
+.menu ul{
+    
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding:1%;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:aliceblue;
+    
+    
+}
+.menu ul li a:hover{
+    color:rgb(169, 211, 240);
+    
+}
+
+
+/* css for main content  */
+.main-content{
+    margin:1% 0;
+
+}
+/* .whole{
+    border:2px solid red;
+
+} */
+.tbl,
+th,
+td {
+    border: 1px solid black;
+    /* padding: 1%; */
+}
+.tbl{
+    border:2px solid red;
+    width:100%;
+    border-collapse: collapse;
+}
+.tbl tr th{
+    border-bottom:2px solid red;
+    text-align: left;
+    padding:0.7%;
+    margin:0;
+}
+
+.tbl tr td{
+    border-bottom:1px solid rgb(0, 0, 0);
+    padding:0.5%;
+    text-align: left;
+}
+
+.btn-primary{
+    border: 2px soid rgb(90, 145, 218);
+    background-color: rgb(90, 145, 218);
+    color: white;
+    border-radius: 5px;
+    margin:0.5%;
+    padding:0.5%;
+    text-decoration: none;
+}
+.btn-primary:hover{
+    background-color: rgb(11, 105, 230);
+    margin:0.4%;
+    padding:0.4%;
+
+}
+.btn-secondary{
+    float: center;
+    border: 2px soid rgb(5, 248, 147);
+    background-color: rgb(5, 248, 147);
+    color: rgb(20, 6, 6);
+    border-radius: 5px;
+    margin:1%;
+    padding:0.5%;
+    text-decoration: none;
+}
+.btn-secondary:hover{
+    background-color: rgb(46, 218, 83);
+    color: white;
+   
+
+}
+.btn-normal{
+    float: center;
+    border: 2px soid rgb(239 176 215);
+    background-color: rgb(239 176 215);
+    color: rgb(20, 6, 6);
+    border-radius: 5px;
+    margin:1%;
+    padding:0.5%;
+    text-decoration: none;
+
+}
+.btn-normal:hover{
+    background-color: rgb(255, 0, 221);
+    color: white;
+   
+
+}
+.btn-danger{
+    float: center;
+    border: 2px soid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    
+    color: rgb(20, 6, 6);
+    border-radius: 5px;
+    margin:1%;
+    padding:0.5%;
+    text-decoration: none;
+    
+}
+.btn-danger:hover{
+    background-color: rgb(218, 46, 69);
+    color: white;
+    
+}
+.success{
+    color:green;
+}
+.error{
+    color:red;
+}
+.accepted{
+    color:green;
+
+}
+.deleted{
+    color:red;
+   float:right;
+   
+
+}
+
+/* css for index.php file  */
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    border:2px solid red;
+    height: 30vh;
+    width:20vw;
+    margin:10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(190, 219, 245);
+    
+}
+.con{
+    position: relative;
+    text-align: center;
+    color: rgb(186, 35, 55);
+}
+.bloodtype{
+    color: azure;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* css end for index.php file  */
+
+/* css for footer */
+.footer{
+    color: rgb(160, 16, 49);
+    background-color: aqua;
+}
